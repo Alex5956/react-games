@@ -1,0 +1,27 @@
+nav
+  ul
+    list-style: none
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-wrap: wrap
+    padding: 0
+
+    li
+      width: calc(25% - 10px * 2)
+      background-color: #636e72
+      margin: 10px
+      min-width: 200px
+
+      a
+        text-decoration: none
+        color: inherit
+        display: block
+        padding: 20px
+        transition: all 200ms ease-in-out
+
+        &.selected
+          background-color: #dfe6e9
+          color: #2d3436
+
+
